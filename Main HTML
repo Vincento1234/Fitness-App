@@ -1,1 +1,22 @@
+<!-- src/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" id="login-link">Login</a> | 
+        <a href="#" id="workout-log-link">Workout Log</a> | 
+        <a href="#" id="dashboard-link">Dashboard</a>
+    </nav>
+    <div id="content">
+        <!-- Content will load here -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
 
