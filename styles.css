@@ -1,0 +1,50 @@
+/* src/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+#content {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* src/styles.css */
+
+#exercise-selector, #custom-exercise, #workout-summary {
+    margin-top: 1rem;
+}
+
+#exercise-selector select, #custom-exercise input, button {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+#workout-plan-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#workout-plan-list li {
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#workout-plan-list button {
+    margin-left: 1rem;
+    padding: 0.2rem 0.5rem;
+}
